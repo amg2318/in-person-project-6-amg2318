@@ -27,7 +27,7 @@ function Navbar() {
               <li><a href="#contact" className="nav-link" onClick={handleNavClick}>Contact</a></li>
           </ul>
           
-          <div className="nav-toggle" onClick={() => setIsMobileMenuOpen(true)}>
+          <div className="nav-toggle" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               <span></span>
               <span></span>
               <span></span>
