@@ -3,13 +3,12 @@
 // Each component should manage its own state as appropriate
 
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div className="portfolio">
-      <h1>Week 8: React State & Interactive Components</h1>
-      <p>Follow the README instructions to build your component-based portfolio!</p>
-
+      <Navbar />
       {/* TODO: Import and add components here:
           - <Navbar />
           - <Hero />
